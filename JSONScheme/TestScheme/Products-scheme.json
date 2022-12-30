@@ -1,0 +1,20 @@
+{
+  "name": "Products",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "isPrimary": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "isPrimary": false
+    }
+  ]
+}

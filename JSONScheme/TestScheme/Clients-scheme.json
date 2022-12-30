@@ -1,0 +1,25 @@
+{
+  "name": "Clients",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "isPrimary": true
+    },
+    {
+      "name": "login",
+      "type": "string",
+      "isPrimary": true
+    },
+    {
+      "name": "password",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "fullName",
+      "type": "string",
+      "isPrimary": false
+    }
+  ]
+}
