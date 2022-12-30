@@ -1,4 +1,6 @@
-﻿namespace DummyDB
+﻿using System;
+
+namespace DummyDB
 {
     internal class Program
     {
