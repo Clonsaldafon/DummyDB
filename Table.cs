@@ -12,5 +12,10 @@ namespace DummyDB
             Rows = rows;
             TableScheme = tableScheme;
         }
+
+        public void AddRow(Row row)
+        {
+            Rows.Add(row);
+        }
     }
 }
